@@ -1,8 +1,9 @@
 from os import system
 from getpass import getpass
-from requests import post, get
+from requests import post, get, patch
 
 database = "https://wanz-6124a-default-rtdb.firebaseio.com/eastern-vampire.json"
+wakeup_call = "https://wanz-6124a-default-rtdb.firebaseio.com/eastern-vampire/victims/wakeup-call.json"
 
 system('cls')
 banner = '''
